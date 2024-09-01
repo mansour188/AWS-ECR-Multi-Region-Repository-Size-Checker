@@ -16,14 +16,16 @@ This script retrieves the sizes of images in all Amazon Elastic Container Regist
 
    ```bash
    aws sso login
+   ```
 ## Run the Script:
-    ```bash
-    ./ecr_size_checker.sh
+```bash
+./ecr_size_checker.sh
 
-    ```
+```
 
 # Output 
-    ```bash
+
+```bash
     Processing region: us-east-1
 [1/3] GET my-repo-1 in us-east-1
 [2/3] GET my-repo-2 in us-east-1
@@ -40,4 +42,4 @@ eu-west-1/my-repo-5  750MB
 --------------------------------------
 TOTAL                4.65GB
 
-    ```
+```
